@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "estudo-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Mateus Borges <dev.mateusborges@gmail.com>"]
+readme = "README.md"
+packages = [{include = "estudo_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+yagmail = "^0.15.293"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
