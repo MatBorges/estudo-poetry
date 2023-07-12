@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "estudo_poetry"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 yagmail = "^0.15.293"
 python-dotenv = "^1.0.0"
 
